@@ -1,0 +1,76 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class invernadero:\n",
+    "    def_init_(self, huerto, tanque, temperatura, hora):\n",
+    "        self.huerto = huerto\n",
+    "        self.tanque = tanque\n",
+    "        self.temperatura = temperatura\n",
+    "        self.puerta_abierta = False \n",
+    "\n",
+    "    def puerta_abierta(self):\n",
+    "      if temperatura = 26:\n",
+    "        puerta_abierta = True\n",
+    "      elif temperatura = 21:\n",
+    "        puerta_abierta = False\n",
+    "\n",
+    "class huerto:\n",
+    "    def_init_(self, fruto):\n",
+    "      self.fruto = fruto\n",
+    "\n",
+    "class tanque:\n",
+    "  def_init_(self, capacidad, cantidad):\n",
+    "    self.capacidad = capacidad()\n",
+    "    self.cantidad = cantidad()\n",
+    "\n",
+    "  def llenar_estanque(self):\n",
+    "    if cantidad() <= 6:\n",
+    "      cantidad() = capacidad()\n",
+    "\n",
+    "class fruto:\n",
+    "  def_init_(self, frutillas, frambuesas, moras):\n",
+    "    self.frutillas = frutillas\n",
+    "    self.frambuesas = frambuesas\n",
+    "    self.moras = moras\n",
+    "\n",
+    "class frutillas:\n",
+    "  def_init_(self, agua, temperatura, hora):\n",
+    "    self.agua = 2\n",
+    "    self.temperatura = temperatura\n",
+    "    self.hora = hora\n",
+    " \n",
+    "class frambuesas:\n",
+    "  def_init_(self, agua, temperatura, hora):\n",
+    "    self.agua = 3\n",
+    "    self.temperatura = temperatura\n",
+    "    self.hora = hora\n",
+    "\n",
+    "class moras:\n",
+    "  def_init_(self, agua, temperatura, hora):\n",
+    "    self.agua = 1\n",
+    "    self.temperatura = temperatura\n",
+    "    self.hora = hora"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "python"
+  },
+  "orig_nbformat": 4
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
